@@ -1,2 +1,2 @@
-# AppCenterTest
-appcentertest180120
+# AppCenterSample
+Microsoft App Center
