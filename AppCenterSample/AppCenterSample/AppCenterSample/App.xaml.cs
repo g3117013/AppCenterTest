@@ -11,9 +11,9 @@ namespace AppCenterSample
 {
     public partial class App : Application
     {
-        const string uwpKey = "2b977979-ebbc-40f8-b6d2-cddb98312ac1";
-        const string iosKey = "233ad039-4e6d-4baf-8824-3845db2f2907";
-        const string androidKey = "a981827b-441f-4ab1-990e-e582d18d60bf";
+        const string uwpKey = "uwpKe056830d8-fa36-4525-9f19-caa861ca8fb8";
+        const string iosKey = "c1100290-7584-4db6-93e6-4256218c741a";
+        const string androidKey = "b5aea107-2850-4b37-9235-a554405ebf04";
 
         public App()
         {
@@ -24,7 +24,7 @@ namespace AppCenterSample
 
         protected override void OnStart()
         {
-            AppCenter.Start($"uwp={uwpKe056830d8-fa36-4525-9f19-caa861ca8fb8};android={b5aea107-2850-4b37-9235-a554405ebf04};ios={c1100290-7584-4db6-93e6-4256218c741a};", 
+            AppCenter.Start($"uwp={uwpKey};android={androidKey};ios={iosKey};", 
                             typeof(Analytics), typeof(Crashes));
         }
 
